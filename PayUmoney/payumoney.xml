@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <install version="1.5" type="plugin" group="vmpayment" >
-    <name>VM - Payment, PAYU</name>
+    <name>VM - Payment - PayUmoney</name>
     <creationDate>April 2012</creationDate>
-    <author>Rohan Gupta - PAYU Development Team</author>
-    <copyright>Copyright (C) 2012 PAYU Team. All rights reserved.</copyright>
+    <author>PayUmoney.com</author>
+    <copyright>Copyright (C) 2018 PayUmoney Team. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
-    <version>2.0.6</version>
-     <description><![CDATA[<a href="http://payu.in" target="_blank">PAYU</a> is a popular
+    <version>2.0.7</version>
+     <description><![CDATA[<a href="http://payumoney.com" target="_blank">PayUmoney</a> is a popular
 	payment provider. ]]>
     </description>
 
     <files>
-	<filename plugin="payu">payu.php</filename>
+	<filename plugin="payumoney">payumoney.php</filename>
 	</files>
 	
 	<media folder="images" destination="../images/stories/virtuemart/payment">
-	<filename>payu.jpg</filename>
+	<filename>PayUmoney-logo.png</filename>
     </media>
 	
     <languages>
-	<language tag="en-GB">en-GB.plg_vmpayment_payu.ini</language>
+	<language tag="en-GB">en-GB.plg_vmpayment_payumoney.ini</language>
     </languages>
     <params addpath="/administrator/components/com_virtuemart/elements">
 	<param type="vmjpluginwarning" />
